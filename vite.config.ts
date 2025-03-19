@@ -17,7 +17,7 @@ export default defineConfig({
         },
       },
     },
-    outDir: 'extension/out',
+    outDir: 'out',
     emptyOutDir: true,
   },
 }); 

@@ -3,7 +3,7 @@
   "displayName": "Bookmark-S",
   "description": "A VS Code bookmark extension for easy code navigation",
   "version": "2.0.1",
-  "publisher": "BookmarkTeam",
+  "publisher": "odinzero",
   "type": "module",
   "engines": {
     "vscode": "^1.98.0"
@@ -32,7 +32,7 @@
   },
   "icon": "images/png/bookmark.png",
   "activationEvents": [],
-  "main": "./extension/out/extension.js",
+  "main": "./out/extension.cjs",
   "contributes": {
     "commands": [
       {
