@@ -12,16 +12,14 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    # 明确声明 GitHub token 的权限
-    permissions:
-      contents: write    # 用于创建发布和标签
-      pull-requests: write  # 用于创建 PR
-      
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 获取完整的 git 历史用于版本管理
+          # 使用 APP_TOKEN 进行 checkout 操作
+          token: ${{ secrets.HUB2_TOKEN }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -63,5 +61,6 @@ jobs:
           commit: "chore: version packages"
           title: "chore: version packages"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 使用 APP_TOKEN 代替 GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.HUB2_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }} 
