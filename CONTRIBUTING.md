@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to the Bookmark-S Extension! This document provides guidelines and workflows to ensure a smooth contribution process.
 
+*[中文贡献指南](docs/CONTRIBUTING.zh-CN.md)*
+
 ## Development Workflow
 
 1. Fork the repository and clone it locally

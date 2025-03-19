@@ -2,6 +2,8 @@
 
 This document explains the end-to-end CI/CD workflow for the Bookmark-S extension.
 
+*[中文文档](CI-CD-GUIDE.zh-CN.md)*
+
 ## Overview
 
 Our CI/CD system uses:
