@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="64" fill="#5E81AC" />
+  
+  <!-- 书签简洁形状 - 大 -->
+  <path d="M64 24L88 32V104L64 92L40 104V32L64 24Z" fill="white" fill-opacity="0.95" />
+  
+  <!-- 书签简洁形状 - 中 -->
+  <path d="M64 44L76 48V84L64 76L52 84V48L64 44Z" fill="#EBCB8B" />
+  
+  <!-- 文件夹图标 - 简化版 -->
+  <path d="M46 56H82C83.1046 56 84 56.8954 84 58V72C84 73.1046 83.1046 74 82 74H46C44.8954 74 44 73.1046 44 72V58C44 56.8954 44.8954 56 46 56Z" fill="#D08770" fill-opacity="0.8" />
+  
+  <!-- 目录线条 -->
+  <line x1="52" y1="64" x2="76" y2="64" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <line x1="52" y1="68" x2="68" y2="68" stroke="white" stroke-width="2" stroke-linecap="round" />
+</svg> 

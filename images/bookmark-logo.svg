@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="#2E3440" />
+  
+  <!-- 书本形状 -->
+  <rect x="32" y="24" width="64" height="80" rx="4" fill="#4C566A" />
+  <rect x="34" y="26" width="60" height="76" rx="2" fill="#3B4252" />
+  
+  <!-- 书页效果 -->
+  <rect x="38" y="30" width="52" height="68" rx="1" fill="#E5E9F0" />
+  <line x1="44" y1="40" x2="84" y2="40" stroke="#D8DEE9" stroke-width="2" />
+  <line x1="44" y1="50" x2="84" y2="50" stroke="#D8DEE9" stroke-width="2" />
+  <line x1="44" y1="60" x2="84" y2="60" stroke="#D8DEE9" stroke-width="2" />
+  <line x1="44" y1="70" x2="84" y2="70" stroke="#D8DEE9" stroke-width="2" />
+  <line x1="44" y1="80" x2="84" y2="80" stroke="#D8DEE9" stroke-width="2" />
+  
+  <!-- 文件夹图标 -->
+  <path d="M54 34H88C89.1046 34 90 34.8954 90 36V46C90 47.1046 89.1046 48 88 48H54C52.8954 48 52 47.1046 52 46V36C52 34.8954 52.8954 34 54 34Z" fill="#5E81AC" />
+  
+  <!-- 书签 -->
+  <path d="M88 24L101 34V94L88 84L75 94V34L88 24Z" fill="#EBCB8B" />
+  <path d="M88 28L96 34V87L88 80L80 87V34L88 28Z" fill="#D08770" />
+  
+  <!-- 文字标记 -->
+  <text x="64" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E5E9F0" text-anchor="middle">BOOKMARK</text>
+</svg> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="128" height="128" rx="16" fill="#2E3440" />
+  
+  <!-- 书签主体 - 金色 -->
+  <path d="M64 20L96 36V108L64 88L32 108V36L64 20Z" fill="#EBCB8B" />
+  
+  <!-- 书签内部阴影 - 橙色 -->
+  <path d="M64 28L88 40V96L64 80L40 96V40L64 28Z" fill="#D08770" />
+  
+  <!-- 折角效果 -->
+  <path d="M64 36L80 44V88L64 76L48 88V44L64 36Z" fill="#E5E9F0" />
+  
+  <!-- 文本线条 -->
+  <line x1="56" y1="52" x2="72" y2="52" stroke="#4C566A" stroke-width="2" stroke-linecap="round" />
+  <line x1="56" y1="60" x2="72" y2="60" stroke="#4C566A" stroke-width="2" stroke-linecap="round" />
+  <line x1="56" y1="68" x2="72" y2="68" stroke="#4C566A" stroke-width="2" stroke-linecap="round" />
+</svg> 

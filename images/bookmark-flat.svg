@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 渐变背景 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5E81AC" />
+      <stop offset="1" stop-color="#3B4252" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景方形 - 圆角 -->
+  <rect width="128" height="128" rx="24" fill="url(#bgGradient)" />
+  
+  <!-- 扁平化书签 - 金色 -->
+  <path d="M39 28H89V100L64 85L39 100V28Z" fill="#EBCB8B" />
+  
+  <!-- 折叠效果 -->
+  <path d="M89 28L104 43V100L89 100V28Z" fill="#D08770" />
+  <path d="M89 28L104 43H89V28Z" fill="#E5E9F0" />
+  
+  <!-- 文件夹指示器 -->
+  <rect x="48" y="44" width="32" height="6" rx="2" fill="#E5E9F0" />
+  <rect x="48" y="56" width="32" height="6" rx="2" fill="#E5E9F0" />
+  <rect x="48" y="68" width="32" height="6" rx="2" fill="#E5E9F0" />
+  
+  <!-- 小标签/分隔符 -->
+  <rect x="39" y="39" width="4" height="16" rx="2" fill="#5E81AC" />
+  <rect x="39" y="63" width="4" height="16" rx="2" fill="#5E81AC" />
+</svg> 

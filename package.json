@@ -1,0 +1,208 @@
+{
+  "name": "bookmark-s",
+  "displayName": "Bookmark-S",
+  "description": "A VS Code bookmark extension for easy code navigation",
+  "version": "1.0.0",
+  "publisher": "BookmarkTeam",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "bookmark",
+    "navigation",
+    "folder",
+    "organize",
+    "productivity"
+  ],
+  "homepage": "https://github.com/username/vscode-bookmark-s",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/vscode-bookmark-s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/vscode-bookmark-s/issues"
+  },
+  "galleryBanner": {
+    "color": "#5E81AC",
+    "theme": "dark"
+  },
+  "icon": "images/png/bookmark.png",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bookmark.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "bookmark.addBookmark",
+        "title": "Bookmark: Add Bookmark"
+      },
+      {
+        "command": "bookmark.removeBookmark",
+        "title": "Bookmark: Remove Bookmark",
+        "icon": "$(close)"
+      },
+      {
+        "command": "bookmark.clearBookmarks",
+        "title": "Bookmark: Clear All Bookmarks"
+      },
+      {
+        "command": "bookmark.renameBookmark",
+        "title": "Bookmark: Rename Bookmark",
+        "icon": "$(edit)"
+      },
+      {
+        "command": "bookmark.addDirectory",
+        "title": "Bookmark: Add Directory",
+        "icon": "$(new-folder)"
+      },
+      {
+        "command": "bookmark.renameDirectory",
+        "title": "Bookmark: Rename Directory",
+        "icon": "$(edit)"
+      },
+      {
+        "command": "bookmark.removeDirectory",
+        "title": "Bookmark: Remove Directory",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "bookmark.addBookmarkToDirectory",
+        "title": "Bookmark: Add Bookmark to Directory",
+        "icon": "$(add)"
+      },
+      {
+        "command": "bookmark.setLanguage",
+        "title": "Bookmark: Set Language"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "bookmark-explorer",
+          "title": "Bookmarks",
+          "icon": "$(bookmark)"
+        }
+      ]
+    },
+    "views": {
+      "bookmark-explorer": [
+        {
+          "id": "bookmarkExplorer",
+          "name": "Bookmarks"
+        }
+      ]
+    },
+    "menus": {
+      "editor/context": [
+        {
+          "command": "bookmark.addBookmark",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "bookmark.renameBookmark",
+          "when": "view == bookmarkExplorer && viewItem == bookmark",
+          "group": "inline@1"
+        },
+        {
+          "command": "bookmark.removeBookmark",
+          "when": "view == bookmarkExplorer && viewItem == bookmark",
+          "group": "inline@2"
+        },
+        {
+          "command": "bookmark.renameDirectory",
+          "when": "view == bookmarkExplorer && viewItem == directory",
+          "group": "inline@1"
+        },
+        {
+          "command": "bookmark.removeDirectory",
+          "when": "view == bookmarkExplorer && viewItem == directory",
+          "group": "inline@2"
+        },
+        {
+          "command": "bookmark.addBookmarkToDirectory",
+          "when": "view == bookmarkExplorer && viewItem == directory",
+          "group": "inline@3"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "bookmark.clearBookmarks",
+          "when": "view == bookmarkExplorer"
+        },
+        {
+          "command": "bookmark.addDirectory",
+          "when": "view == bookmarkExplorer",
+          "group": "navigation"
+        },
+        {
+          "command": "bookmark.setLanguage",
+          "when": "view == bookmarkExplorer",
+          "group": "navigation@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Bookmark",
+      "properties": {
+        "bookmark.language": {
+          "type": "string",
+          "default": "auto",
+          "enum": [
+            "auto",
+            "en",
+            "zh-cn"
+          ],
+          "enumDescriptions": [
+            "Automatically use the VS Code display language",
+            "English",
+            "Simplified Chinese (简体中文)"
+          ],
+          "description": "Language used for the Bookmark extension interface"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "bookmark.addBookmark",
+        "key": "ctrl+shift+b",
+        "mac": "cmd+shift+b"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run build",
+    "build": "tsc && vite build",
+    "watch": "tsc -w & vite build --watch",
+    "lint": "eslint --ext .ts src",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "package": "vsce package",
+    "vscode:publish": "vsce publish",
+    "prepare": "husky install"
+  },
+  "author": "Bookmark Team",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@types/node": "^22.13.10",
+    "@types/vscode": "^1.98.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "@vscode/vsce": "^3.3.0",
+    "eslint": "^9.22.0",
+    "husky": "^8.0.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}
