@@ -4,6 +4,7 @@
   "description": "A VS Code bookmark extension for easy code navigation",
   "version": "1.0.0",
   "publisher": "BookmarkTeam",
+  "type": "module",
   "engines": {
     "vscode": "^1.98.0"
   },
