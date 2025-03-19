@@ -93,7 +93,7 @@ Code Changes → Commit (with commitlint) → Push to Branch → Create PR
 
 For the workflow to function correctly, these secrets need to be set:
 - `VSCE_PAT`: A VS Code Marketplace Personal Access Token with publish permissions
-- `GITHUB_TOKEN`: Automatically provided by GitHub Actions
+- `HUB_TOKEN`: Automatically provided by GitHub Actions
 
 ### Getting a VS Code Marketplace Token
 

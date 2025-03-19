@@ -58,5 +58,5 @@ jobs:
           commit: "chore: version packages"
           title: "chore: version packages"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HUB_TOKEN: ${{ secrets.HUB_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }} 
