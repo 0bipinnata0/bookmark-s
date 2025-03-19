@@ -1,5 +1,11 @@
 # bookmark-s
 
+## 2.0.1
+
+### Patch Changes
+
+- 64dc5e8: update yml
+
 ## 2.0.0
 
 ### Major Changes
