@@ -1,5 +1,5 @@
 ---
-"Bookmark-S": patch
+"bookmark-s": patch
 ---
 
 This is an example changeset. Delete this file before making real changes.
