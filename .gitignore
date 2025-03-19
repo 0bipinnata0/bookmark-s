@@ -147,7 +147,7 @@ dist
 .DS_Store
 
 # VSCode Extension build
-out/
+extension/out/
 
 # Local development
 .vscode-test/
