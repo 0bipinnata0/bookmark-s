@@ -91,7 +91,7 @@
 
 为了使工作流正常运行，需要设置以下密钥：
 - `VSCE_PAT`：一个具有发布权限的 VS Code 插件市场个人访问令牌
-- `GITHUB_TOKEN`：由 GitHub Actions 自动提供
+- `HUB_TOKEN`：由 GitHub Actions 自动提供
 
 ### 获取 VS Code 插件市场令牌
 
