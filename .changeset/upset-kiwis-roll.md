@@ -1,5 +1,0 @@
----
-"bookmark-s": major
----
-
-test
