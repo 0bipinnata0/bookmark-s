@@ -1,5 +1,11 @@
 # bookmark-s
 
+## 2.0.2
+
+### Patch Changes
+
+- e2eb5f3: test
+
 ## 2.0.1
 
 ### Patch Changes
