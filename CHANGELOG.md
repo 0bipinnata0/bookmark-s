@@ -1,5 +1,11 @@
 # bookmark-s
 
+## 2.0.5
+
+### Patch Changes
+
+- 2917643: update types version
+
 ## 2.0.4
 
 ### Patch Changes
