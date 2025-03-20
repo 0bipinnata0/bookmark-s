@@ -2,7 +2,7 @@
   "name": "bookmark-s",
   "displayName": "Bookmark-S: Advanced Code Navigation",
   "description": "A VS Code bookmark extension for easy code navigation",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "publisher": "0bipinnata0",
   "type": "module",
   "engines": {

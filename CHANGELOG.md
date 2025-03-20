@@ -1,5 +1,11 @@
 # bookmark-s
 
+## 2.0.3
+
+### Patch Changes
+
+- 588235f: update publisher
+
 ## 2.0.2
 
 ### Patch Changes
