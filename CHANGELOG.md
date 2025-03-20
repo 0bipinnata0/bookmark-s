@@ -1,5 +1,11 @@
 # bookmark-s
 
+## 2.0.4
+
+### Patch Changes
+
+- 973839c: support lower vscode version
+
 ## 2.0.3
 
 ### Patch Changes
